@@ -7,6 +7,9 @@ final appRouter = GoRouter(
     builder: (context, state) => const HomeScreen(),),
     GoRoute(path: '/state-provider',
     builder: (context, state) => StateProviderScreen(),
+    ),
+    GoRoute(path: '/future-provider',
+    builder: (context, state) => PokemonScreen(),
     )
   ]
 );
